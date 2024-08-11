@@ -1,0 +1,124 @@
+
+.pagination{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-top:20px;
+}
+.pagination a{
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #0f0f0f;
+    background-color: #ccc;
+}
+.pagination a.active{
+    background-color: #007bff;
+    color: #fff;
+}
+.movie-card-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    
+}
+
+.movie-card {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #070707;
+    border: 5px solid #141212;
+    border-radius: 1px;
+    box-shadow: 0 2px 4px rgba(236, 230, 230, 0.1);
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.movie-card h2 {
+    font-size: 16px;
+    white-space: nowrap;
+    margin-bottom: 5px;
+    color: #edf0f0;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.movie-card p {
+    font-size: 14px;
+    white-space: nowrap;
+    color: #f5cdcd;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+
+.favorite-button {
+    background-color: #214174;
+    color: #1fdd4f;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 10px;
+    margin-left: 10px;
+    cursor:grab;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+    background-image:url('back.jpg');
+    background-blend-mode:luminosity;
+    
+}
+
+h1 {
+    text-align: center;
+    font-weight:bold;
+    color: #16e7d6fd;
+    font-variant: small-caps;
+}
+
+form {
+    text-align: center;
+    margin-top: 30px;
+}
+
+label {
+    font-weight: bold;
+    color: #73c4c7;
+}
+
+select, input[type="number"] {
+    padding: 8px;
+    font-size: 16px;
+    
+    color:#08dbf7;
+    border-radius: 4px;
+    border: 1px solid #fffefe;
+    background-color: #0a0a0a6e;
+}
+
+input[type="submit"] {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
